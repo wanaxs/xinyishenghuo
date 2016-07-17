@@ -1,0 +1,281 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+ <head> 
+  <meta charset="UTF-8" /> 
+  <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" /> 
+
+  <title>联系我们</title> 
+
+  <link rel="stylesheet" type="text/css" href="./css/xinyi.css" />
+  <link rel="stylesheet" type="text/css" href="./css/AboutUs.css" />
+   <link rel="stylesheet" type="text/css" href="./css/message.css"/>
+   <link rel="stylesheet" href="./css/Cate.css" type="text/css">
+   <link rel="stylesheet" href="./iconfont/iconfont.css">
+   <link rel="stylesheet" type="text/css" href="./css/grid12.css">
+<style type="text/css">
+     html,body{margin:0;padding:0;}
+    .iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+    .iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
+</style>
+
+   
+
+<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+
+  <!-- jq库 -->
+  <script type="text/javascript" src="./js/jquery-1.10.2.min.js"></script> 
+  <script type="text/javascript" src="./js/jquery.js"></script>
+  <script type="text/javascript" src="./js/xinyi.js"></script> 
+  <!-- 响应式 -->
+  <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./css/responsive.css">
+ </head> 
+ <body> 
+  <div id="wrapper"> 
+   <!-- 头部分导航 --> 
+
+     
+       <header class="header"> 
+        <!-- <div class="wrap"> --> 
+        <h1 class="logo">
+         <a href="" class="navbar-brand">
+          <if>
+          <a href="life-1.html">
+           <img src="images/logo.png" /></a>
+          </if></a> </h1> 
+        <div class="topLinks"> 
+         <a href=""> <i class="iconfont">&#xe60c;  </i> 会员专区 </a> 
+         <a href="">登录</a> 
+         <em>/</em> 
+         <a href="">注册</a> 
+        </div> 
+
+        <nav class="nav nav-pills">
+        
+          <ul> 
+          <li  class="active"><a  href="guanyu.html">关于我们</a></li> 
+          <li><a href="zixun.html">心意资讯</a></li> 
+          <li><a href="yule.html">娱乐美食</a></li> 
+          <li><a href="fuwu.html">心意服务</a></li> 
+          <li><a href="huodong.html">心意活动</a></li> 
+          <li><a href="zhinan.html">消费指南</a></li> 
+          <li><a href="lianxi.html">联系我们</a></li> 
+          <li>
+            <i class="iconfont sousuo">&#xe63d;</i> 
+          </li>
+          
+         </ul>  
+
+         <div class="clearfix"></div> 
+         
+        </div> 
+       </header>
+      <!-- content -->
+      <div class="wrapper" style="background-image: url(images/call.jpg);">
+       
+          <div class="wrap clearfix"> 
+        
+            <strong class="n">订单结束于心意客服的回访电话</strong>
+   
+          </div>
+      
+      </div>
+       <div class="about-hd">
+        <div class="wrap clearfix">
+          <h2 class="n">商家介绍</h2>
+          <h3 class="about-link">
+            <a href="life-1.html">首页</a>
+                   
+            <em> > </em>
+          联系我们
+          </h3>
+        </div>
+      </div>
+   
+        
+      <!-- 百度地图容器 -->
+   
+        <div style="width:1003px;height:400px;border:#ccc solid 1px;margin-left: 200px;" id="dituContent"></div>
+       
+ 
+      <!-- 轮播2 --> 
+      <div class="hdlunb"> 
+       <div class="hdul1"> 
+        <div class="hdli1"> 
+         <ul class="hdul2"> 
+          <li><img src="images/1.jpg" /></li> 
+          <li><img src="images/2.jpg" /></li> 
+          <li><img src="images/3.jpg" /></li> 
+          <li><img src="images/4.jpg" /></li> 
+          <li><img src="images/5.jpg" /></li> 
+          <li><img src="images/6.jpg" /></li> 
+          <li><img src="images/7.jpg" /></li> 
+          <li><img src="images/8.jpg" /></li> 
+          <li><img src="images/9.jpg" /></li> 
+          <li><img src="images/10.jpg" /></li> 
+          <li><img src="images/11.jpg" /></li> 
+          <li><img src="images/12.jpg" /></li> 
+          <li><img src="images/13.jpg" /></li> 
+          <li><img src="images/14.jpg" /></li> 
+          <li><img src="images/15.jpg" /></li> 
+          <li><img src="images/16.jpg" /></li> 
+          <li><img src="images/17.jpg" /></li> 
+          <li><img src="images/18.jpg" /></li> 
+          <li><img src="images/19.jpg" /></li> 
+         </ul> </div>
+        <li class="hdli2"></li>  
+       </div> 
+       <div class="clearfix"></div> 
+      </div> 
+   
+      <div class="clearfix"></div> 
+      <!-- 底部 --> 
+      <footer class="footer"> 
+       <div class="wrap"> 
+        <div class="links"> 
+         <a href="">点餐</a> 
+         <a href="">饭醉团</a> 
+         <a href="">更多服务</a> 
+         <a href="">会员</a> 
+         <a href="">商家合作</a> 
+        </div> 
+        <div class="footShare"> 
+         <div class="foot-ico"> 
+          <a class="more" href=""></a> 
+          <a class="qzone" href=""></a> 
+          <a class="sina" href=""></a> 
+          <a class="qq" href=""></a> 
+          <a class="renren" href=""></a> 
+          <a class="weixin" href=""></a> 
+         </div> 
+        </div> 
+        <div class="infos"> 
+         <span class="ltt"> <a href="">0888-8888886</a>（订餐电话） </span> 
+         <span class="ltt"> 微信公众平台：xy-8888886 </span> 
+         <span class="ltt"> 新浪微博：丽江心意生活服务公司 </span> 
+         <br /> 心意生活 版权所有 Copyright &copy; 2015 All rights reserved 
+         <a href="">滇ICP备14003333号-1</a> | 
+         <br /> 
+         <a href=""> 心意生活 </a> 制作维护 
+        </div> 
+        <div class="clearfix"></div> 
+        <div class="ewms"> 
+         <ul> 
+          <li> <img src="images/f01.png" /> <br /> 手机站 </li> 
+          <li> <img src="images/f02.png" /> <br /> 微信公众平台 </li> 
+          <li> <img src="images/f03.png" /> <br /> 微信扫码手机下单 </li> 
+         </ul> 
+         <div class="clearfix"></div> 
+        </div> 
+        <div style="width: 300px;margin:0 auto;padding:20px"> 
+         <a href=""> <img src="images/ghs.png" alt="" style="float: left ;" /> <p style="float: left;height: 20px;line-height: 20px;margin:0 0 0 7px;color:#939393; font-size:14px">滇公网安备 53070202001018号</p> </a> 
+        </div> 
+       </div> 
+       <div class="clearfix"></div> 
+      </footer> 
+  </div>
+
+
+  <!--响应式js -->
+  <script type="text/javascript" src="../../bootstrap/js/bootstrap.min.js"></script>
+
+ </body>
+ <script type="text/javascript">
+    //创建和初始化地图函数：
+    function initMap(){
+        createMap();//创建地图
+        setMapEvent();//设置地图事件
+        addMapControl();//向地图添加控件
+        addMarker();//向地图中添加marker
+    }
+    
+    //创建地图函数：
+    function createMap(){
+        var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
+        var point = new BMap.Point(103.139285,24.699095);//定义一个中心点坐标
+        map.centerAndZoom(point,7);//设定地图的中心点和坐标并将地图显示在地图容器中
+        window.map = map;//将map变量存储在全局
+    }
+    
+    //地图事件设置函数：
+    function setMapEvent(){
+        map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
+        map.enableScrollWheelZoom();//启用地图滚轮放大缩小
+        map.enableDoubleClickZoom();//启用鼠标双击放大，默认启用(可不写)
+        map.enableKeyboard();//启用键盘上下左右键移动地图
+    }
+    
+    //地图控件添加函数：
+    function addMapControl(){
+        //向地图中添加缩放控件
+  var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
+  map.addControl(ctrl_nav);
+        //向地图中添加缩略图控件
+  var ctrl_ove = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:1});
+  map.addControl(ctrl_ove);
+        //向地图中添加比例尺控件
+  var ctrl_sca = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
+  map.addControl(ctrl_sca);
+    }
+    
+    //标注点数组
+    var markerArr = [{title:"丽江",content:"我的备注",point:"100.168121|26.99631",isOpen:0,icon:{w:23,h:25,l:46,t:21,x:9,lb:12}}
+     ];
+    //创建marker
+    function addMarker(){
+        for(var i=0;i<markerArr.length;i++){
+            var json = markerArr[i];
+            var p0 = json.point.split("|")[0];
+            var p1 = json.point.split("|")[1];
+            var point = new BMap.Point(p0,p1);
+      var iconImg = createIcon(json.icon);
+            var marker = new BMap.Marker(point,{icon:iconImg});
+      var iw = createInfoWindow(i);
+      var label = new BMap.Label(json.title,{"offset":new BMap.Size(json.icon.lb-json.icon.x+10,-20)});
+      marker.setLabel(label);
+            map.addOverlay(marker);
+            label.setStyle({
+                        borderColor:"#808080",
+                        color:"#333",
+                        cursor:"pointer"
+            });
+      
+      (function(){
+        var index = i;
+        var _iw = createInfoWindow(i);
+        var _marker = marker;
+        _marker.addEventListener("click",function(){
+            this.openInfoWindow(_iw);
+          });
+          _iw.addEventListener("open",function(){
+            _marker.getLabel().hide();
+          })
+          _iw.addEventListener("close",function(){
+            _marker.getLabel().show();
+          })
+        label.addEventListener("click",function(){
+            _marker.openInfoWindow(_iw);
+          })
+        if(!!json.isOpen){
+          label.hide();
+          _marker.openInfoWindow(_iw);
+        }
+      })()
+        }
+    }
+    //创建InfoWindow
+    function createInfoWindow(i){
+        var json = markerArr[i];
+        var iw = new BMap.InfoWindow("<b class='iw_poi_title' title='" + json.title + "'>" + json.title + "</b><div class='iw_poi_content'>"+json.content+"</div>");
+        return iw;
+    }
+    //创建一个Icon
+    function createIcon(json){
+        var icon = new BMap.Icon("http://app.baidu.com/map/images/us_mk_icon.png", new BMap.Size(json.w,json.h),{imageOffset: new BMap.Size(-json.l,-json.t),infoWindowOffset:new BMap.Size(json.lb+5,1),offset:new BMap.Size(json.x,json.h)})
+        return icon;
+    }
+    
+    initMap();//创建和初始化地图
+</script>
+</html>

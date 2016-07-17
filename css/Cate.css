@@ -1,0 +1,96 @@
+
+@charset "UTF-8";
+	* {
+	margin:0;
+	padding:0;
+	font-size: 13px;
+	line-height: 1.8;
+	color:#555;
+	font-family:"微软雅黑";
+}
+
+
+.plBox{
+	border:1px solid #e4e4e4;
+	clear: both;
+	overflow: hidden;
+	margin-bottom: 50px;
+	text-align: center;
+
+}
+.plBox:hover{
+	
+	border-color:#ffba01;
+}
+
+.plBox .img{
+	display: block;
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 75%;
+	position: relative;
+}
+.plbox .img img{
+	width: 100%;
+	height: auto;
+}
+/*夜猫子餐吧*/
+.pro_logo{
+	position: absolute;
+	left: 0;
+	top:0;
+	width: 128px;
+	height: auto;
+}
+.plBox ._t, .plBox ._more, .plBox .orderNow{
+	font-size:18px;
+	font-weight: normal;
+	border-bottom:1px solid #e4e4e4;
+	height: 32px;
+	line-height: 30px;
+	white-space: nowrap;
+	overflow: hidden;
+	color:#555;
+
+}
+
+
+
+.plBox ._more, .plBox .orderNow{
+	font-size:15px;
+	color:#ffba01;
+}
+.plBox .orderNow{
+	border-bottom-width: 0;
+}
+.plBox a:hover{
+	text-decoration: none;
+	color:#ffba01;
+	
+}
+._t:hover{
+	color:#ffba01;
+}
+._more:hover{
+	background-color: #ffba01;
+	color:#fff;
+}
+/*分页*/
+.page{
+	text-align: center;
+	margin-bottom: 50px;
+	
+}
+.page a{
+	margin-right: 10px;
+
+}
+
+.page li a:hover{
+	background-color: #ffba01;
+	color:#fff;
+}
+.pagination>li>a{
+	color:#000;
+}
+/*以上没用*/

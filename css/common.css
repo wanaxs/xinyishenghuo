@@ -1,0 +1,43 @@
+@charset "UTF-8";
+@import url(pc.css) screen and (max-width: 1000px);
+@import url(mobile.css) screen and (max-width: 640px);
+
+@media (min-width: 640px) { body {font-size:1rem;} }  
+@media (min-width:960px) { body {font-size:1.2rem;} }  
+@media (min-width:1100px) { body {font-size:1.5rem;} } 
+
+
+
+	*{
+		margin:0;
+		padding:0;
+		
+	}
+
+	/*图片不会大于父容器*/
+    img { max-width: 100%; } 
+
+	/*头部分*/
+	.header {
+	height: auto;
+	background-color: #fff;
+	border-top:#ffa500 3px solid;
+	position: relative;
+}
+/*轮播*/
+#section {
+	max-width: 1920px;
+	width: 100%;
+	height: 450px;
+	position: relative;
+	overflow: hidden;
+	margin: 20px auto;
+}
+/*底部*/
+.footer {
+	background: url(../images/footbg.jpg) top repeat;
+	width: 100%;
+	height: 500px;
+	padding:50px 0 10px;
+	text-align: center;
+}

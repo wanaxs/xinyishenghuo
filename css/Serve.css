@@ -1,0 +1,95 @@
+@charset "UTF-8";
+	* {
+	margin:0;
+	padding:0;
+	font-size: 13px;
+	line-height: 1.8;
+	color:#555;
+	font-family:"微软雅黑";
+}
+.service{
+	height: 300px;
+	background-image: url(../images/vip.jpg);
+	padding:25px 25px 25px 40px;
+	position: relative;
+	margin-bottom: 60px;
+}
+.service .n, .service .text{
+	font-size: 15px;
+	width: 50px%
+}
+.service .n{
+	color:#ffba01;
+	font-size: 30px;
+	margin-bottom: 20px;
+	line-height: 1.2;
+}
+.service-box{
+	clear: both;
+	position: relative;
+	margin-bottom: 50px;
+}
+.service-scroll{
+	height: 375px;
+	position: relative;
+	overflow: hidden;
+}
+.ssl{
+	position: relative;
+}
+
+.ssl .img{
+	display: block;
+	width: 100%;
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 190%;
+}
+.ssl .n{
+	/*width: 100%;*/
+	width: 198px;
+	height: 62px;
+	line-height: 62px;
+	background-color: #ffba01;
+	color:#fff;
+	font-size: 18px;
+	font-weight: normal;
+	position: absolute;
+	left: 0;
+	margin-top:-31px;
+	text-align: center;
+	display: block;
+}
+.ssl .cover{
+	width: 198px;
+	padding:0 10%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	background:url(../images/cave.png)repeat;
+	color:#fff;
+}
+.ssl .cover ._n{
+	display: block;
+	text-align: center;
+	font-size: 18px;
+	padding:30px 0 20px;
+}
+.ssl .cover .ordernow{
+	border:#e9e7e1 1px solid;
+	text-align: center;
+	font-size: 15px;
+	height: 36px;
+	line-height: 36px;
+}
+.service-scroll li{
+	float: left;
+	margin-left:2px;
+}
+/*.cover:nth-child(1) ._n{left:0;top:100%;
+	-webkit-transition:top .4s ease-out;
+	-moz-transition:top .4s ease-out;
+	-o-transition:top .4s ease-out;
+	-ms-transition:top .4s ease-out;
+	transition:top .4s ease-out;}
+.cover:nth-child(1):hover ._n{top:0%;}*/
